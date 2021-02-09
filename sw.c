@@ -98,7 +98,7 @@ void sm(char *A, char *B, size_t n, size_t m) {
       }
     }
   }
-  ph(H, n, m);
+  /* ph(H, n, m); */
   if (maxv == 0) {
     printf("no match\n");
     return;
